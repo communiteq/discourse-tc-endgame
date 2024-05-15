@@ -1,0 +1,46 @@
+{
+  "name": "Endgame theming",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": "Communiteq",
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "helvetica": "assets/helveticaneue.woff",
+    "icons-sprite": "assets/icons.svg"
+  },
+  "color_schemes": {
+    "Endgame Light": {
+      "primary": "222222",
+      "secondary": "e8ecf2",
+      "tertiary": "0088cc",
+      "quaternary": "1755F4",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "selected": "e9e9e9",
+      "hover": "f2f2f2"
+    },
+    "Endgame Dark": {
+      "primary": "dddddd",
+      "secondary": "222222",
+      "tertiary": "099dd7",
+      "quaternary": "1755F4",
+      "header_background": "111111",
+      "header_primary": "dddddd",
+      "highlight": "a87137",
+      "danger": "e45735",
+      "success": "1ca551",
+      "love": "fa6c8d",
+      "selected": "2c2c2c",
+      "hover": "313131"
+    }
+  },
+  "modifiers": {
+  }
+}

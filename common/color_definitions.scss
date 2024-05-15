@@ -1,0 +1,11 @@
+
+
+$pill_background_color: dark-light-choose(#dadde5, #262b33);
+$pill_color: dark-light-choose(#11141a, #fff);
+$tr_line_color: dark-light-choose(#dadde5, #6c7380);
+
+:root {
+  --pill_background_color: #{$pill_background_color};
+  --pill_color: #{$pill_color};
+  --tr_line_color: #{$tr_line_color};
+}

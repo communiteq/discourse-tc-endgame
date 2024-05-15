@@ -1,0 +1,102 @@
+
+@font-face{
+  font-family: "Helvetica Neue Regular";
+  src: url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot");
+  src: url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue Regular")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+
+:root {
+  --heading-font-family: "Helvetica Neue Regular", serif;
+  --font-family: "Helvetica Neue Regular", sans-serif;
+  --d-nav-pill-border-radius: 16px;
+}
+
+.d-header {
+  box-shadow: none;
+}
+
+// make various tr less thick and grey
+.category-list {
+  tr {
+    border-bottom: none;
+  }
+}
+tbody {
+  border-top: 1px solid var(--tr_line_color);
+}
+
+.table-heading, tr {
+  border-bottom: 1px solid var(--tr_line_color);
+}
+
+// nav pills should have padding and normal font size
+.nav-pills > li > a, .nav-pills > li button {
+  font-size: 1em;
+  padding: 12px 16px;
+  gap: 8px;
+}
+
+.nav-pills > li {
+  background-color: var(--pill_background_color);
+  border-radius: var(--d-nav-pill-border-radius);
+}
+// active always grey text regardless of color scheme
+.nav-pills > li a.active, .nav-pills > li button.active {
+  color: #e8ecf2;
+}
+// remove borders from drop down combos
+.select-kit.combo-box .select-kit-header,
+.list-controls .combo-box .combo-box-header {
+  border: none;
+  padding: 12px 16px;
+
+  background-color: var(--pill_background_color);
+  border-radius: var(--d-nav-pill-border-radius);
+  .name {
+    text-transform: capitalize;
+  }
+}
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
+  border: none;
+  outline: none;
+}
+
+.d-header-icons li.search-dropdown button,
+.d-header-icons li.hamburger-dropdown button {
+  background-color: var(--pill_background_color);
+  border-radius: var(--d-nav-pill-border-radius);
+  margin-right: 8px;
+  svg {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+.btn {
+  background-color: var(--pill_background_color);
+  color: var(--primary);
+  border-radius: var(--d-nav-pill-border-radius);
+  padding: 12px 16px;
+}
+.btn-primary .d-icon {
+  color: var(--primary-high);
+}
+.topic-map .buttons .btn {
+  border-radius: 0;
+}
+
+.header-buttons .btn {
+  background-color: var(--quaternary);
+  color: #e8ecf2;
+  padding: 12px 16px;
+}
+.d-header-icons .d-icon {
+  color: var(--pill_color);
+}
