@@ -22,6 +22,9 @@
   box-shadow: none;
 }
 
+.d-header #site-logo {
+  height: 24px;
+}
 // make various tr less thick and grey
 .category-list {
   tr {
@@ -69,17 +72,9 @@ tbody {
   outline: none;
 }
 
-.d-header-icons li.search-dropdown button,
-.d-header-icons li.hamburger-dropdown button {
-  background-color: var(--pill_background_color);
-  border-radius: var(--d-nav-pill-border-radius);
-  margin-right: 8px;
-  svg {
-    width: 50%;
-    margin-top: 10px;
-  }
-}
-.btn {
+#topic-footer-buttons .btn,
+.user-tip__buttons .btn,
+.navigation-container.category-navigation .btn {
   background-color: var(--pill_background_color);
   color: var(--primary);
   border-radius: var(--d-nav-pill-border-radius);
@@ -92,11 +87,12 @@ tbody {
   border-radius: 0;
 }
 
+// don't change bg color for the hamburger
+.header-sidebar-toggle button:focus:hover, .discourse-no-touch .header-sidebar-toggle button:hover {
+  background-color: inherit;
+}
 .header-buttons .btn {
   background-color: var(--quaternary);
   color: #e8ecf2;
   padding: 12px 16px;
-}
-.d-header-icons .d-icon {
-  color: var(--pill_color);
 }
