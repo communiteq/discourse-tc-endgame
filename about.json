@@ -9,6 +9,11 @@
   "maximum_discourse_version": null,
   "assets": {
     "helvetica": "assets/helveticaneue.woff",
+    "helveticaneueregularwoff": "assets/HelveticaNeueRegular.woff",
+    "helveticaneueregularwoff2": "assets/HelveticaNeueRegular.woff2",
+    "helveticaneueregulareot": "assets/HelveticaNeueRegular.eot",
+    "helveticaneueregularsvg": "assets/HelveticaNeueRegular.svg",
+    "helveticaneueregularttf": "assets/HelveticaNeueRegular.ttf",
     "icons-sprite": "assets/icons.svg"
   },
   "color_schemes": {

@@ -1,12 +1,10 @@
 
 @font-face{
   font-family: "Helvetica Neue Regular";
-  src: url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot");
-  src: url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.eot?#iefix")format("embedded-opentype"),
-      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff")format("woff"),
-      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.woff2")format("woff2"),
-      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.ttf")format("truetype"),
-      url("https://db.onlinewebfonts.com/t/0d49fc455f4a8951a42daf952412a713.svg#Helvetica Neue Regular")format("svg");
+  src: url($helveticaneueregulareot);
+  src: url($helveticaneueregularwoff)format("woff"),
+      url($helveticaneueregularwoff2)format("woff2"),
+      url($helveticaneueregularttf)format("truetype");
   font-weight:normal;
   font-style:normal;
   font-display:swap;
